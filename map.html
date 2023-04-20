@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RTU Boni Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="styles4.css">
+
+  </head>
+  <body>
+
+    <nav><a href="indext.html"><img src="BIGDISP8.png" alt="logo" class="logo"></a></nav>
+    
+
+
+    <div id="map" class="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+      var mymap = L.map('map').setView([14.574787277963415, 121.0423683704336], 16);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+          'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+      }).addTo(mymap);
+
+      L.marker([14.574787277963415, 121.0423683704336]).addTo(mymap)
+        .bindPopup("<b>Rizal Technological University</b><br />Boni Ave, Mandaluyong, 1550 Metro Manila").openPopup();
+    
+    </script>
+
+    <footer>
+      &copy; 2023 Map. All rights reserved.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.dropdown{
+    margin: 0 auto;
+}
+
+.logo{
+    padding: 5px 0 0 60px;
+    width: 110px;
+    height: auto;
+    background:#b3ffcc ;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+nav{
+    height: 60px;
+    background: #b3ffcc;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background:#b3ffcc;
+    position: relative;
+    list-style:none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+    line-height: 60px;
+}
+nav ul li a:hover{
+    background: #66ff99;
+    color: white;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+    font-size: 14px;
+}
+nav ul li:hover > ul{
+    display: inline-block;
+    z-index: 1000;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+footer {
+    background: #b3ffcc;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+
+  .words-container {
+    margin: 0 70px;
+    padding: 10px;     
+}
+
+.words-container p{
+    text-align: justify;
+}
+.report-SusanReidy {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.price-hike{
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.bigas-report{
+  margin: 0 70px;
+}
+.h3{
+  margin: 0 50px;
+  padding: 0 20px;
+}
+

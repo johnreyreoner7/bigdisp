@@ -1,0 +1,40 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    }
+
+.map {
+    border: 2px solid black;
+    padding: 10px;
+    height: 600px;
+    width: 900px;
+    justify-content:center;
+    display: flex;
+    margin-left: 235px;
+    margin-top: 40px;
+    }
+
+    .logo {
+        background: #b3ffcc;
+        height: auto;
+    }
+    nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        position: relative;
+        background: #b3ffcc;
+    }
+    footer {
+        background: #b3ffcc;
+        color: black;
+        padding: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+        
